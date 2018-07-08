@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="apptext">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="appspeechresulttext" parent="apptext">
+		<item name="android:textColor">@color/normal_black</item>
+	</style>
+
+	<style name="appbutton" parent="apptext">
+	</style>
+
+	<style name="dropdownbutton" parent="appbutton">
+		<item name="android:src">@drawable/arrow_down_float</item>
+		<item name="android:scaleType">center</item>
+	</style>
+
+	<style name="appbuttoninlist" parent="apptext">
+		<item name="android:padding">5dip</item>
+	</style>
+    
+    <style name="line_separator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">6dip</item>
+        <item name="android:color">@color/red</item>
+        <item name="android:background">@color/yellow1</item>
+    </style>
+
+</resources>
